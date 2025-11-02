@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { FaPassport, FaUmbrellaBeach, FaFirstAid, FaCamera, FaMoneyBillWave, FaMapMarkedAlt } from 'react-icons/fa';
 import { MdOutlineTravelExplore, MdLuggage } from 'react-icons/md';
 import { IoAirplaneSharp } from 'react-icons/io5';
+import { Link } from 'react-router';
 
 const TravelTipsSection = () => {
   const [activeTab, setActiveTab] = useState(0);
@@ -161,9 +162,12 @@ const TravelTipsSection = () => {
             <p className="text-gray-600 mb-6 text-lg">
               আমাদের বিশেষজ্ঞ টিম আপনার ভ্রমণকে স্মরণীয় করে তুলতে সর্বদা প্রস্তুত
             </p>
-            <button className="bg-[#00A4BB] text-white px-8 py-4 rounded-lg font-semibold hover:bg-[#008a9e] transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105">
+                      <Link to='/tour'>
+                           <button className="bg-[#00A4BB] cursor-pointer text-white px-8 py-4 rounded-lg font-semibold hover:bg-[#008a9e] transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105">
               এখনই বুকিং করুন
             </button>
+                      
+                      </Link>
           </div>
         </div>
       </div>

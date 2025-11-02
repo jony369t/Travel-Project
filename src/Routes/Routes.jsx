@@ -9,6 +9,8 @@ import Gallery from "../Pages/Gallery";
 import AboutUs from "../Pages/AboutUs";
 import Contact from "../Pages/Contact";
 import Error from "../Error/Error";
+import TourBooking from "../Pages/Home/TourBooking";
+import TourStory from "../Pages/Home/TourStory";
 
 export const router = createBrowserRouter([
   {
@@ -39,6 +41,14 @@ export const router = createBrowserRouter([
       {
         path: "/contact",
         element: <Contact></Contact>,
+      },
+      {
+        path: "/tour",
+        element: <TourBooking></TourBooking>,
+      },
+      {
+        path: "/tourStory",
+        element: <TourStory></TourStory>,
       },
     ],
   },

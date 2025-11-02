@@ -1,5 +1,6 @@
 import React from "react";
 import CountUp from "react-countup";
+import { Link } from "react-router";
 
 const HeroSection = () => {
   return (
@@ -39,9 +40,12 @@ const HeroSection = () => {
 
           {/* Buttons */}
           <div className="flex flex-wrap gap-4 sm:gap-5">
-            <button className="group relative px-8 sm:px-10 py-3.5 bg-[#00A4BB] text-white rounded-xl font-semibold hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl overflow-hidden">
+                      <Link to="/tour">
+                      
+                      
+                       <button className="group  cursor-pointer relative px-8 sm:px-10 py-3.5 bg-[#00A4BB] text-white rounded-xl font-semibold hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl overflow-hidden">
               <div className="absolute inset-0 bg-[#00A4BB] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-              <span className="relative flex items-center gap-2">
+              <span className="relative flex  items-center gap-2">
                 ট্যুর বুক করুন
                 <svg
                   className="w-4 h-4 group-hover:translate-x-1 transition-transform"
@@ -57,8 +61,12 @@ const HeroSection = () => {
                   />
                 </svg>
               </span>
-            </button>
-            <button className="group px-8 sm:px-10 py-3.5 bg-white/80 backdrop-blur-sm border border-gray-300 text-gray-800 rounded-xl font-semibold hover:bg-white hover:scale-105 transition-all duration-300 shadow-md hover:shadow-lg flex items-center gap-2">
+            </button></Link>
+                      <Link to='/tourStory'>
+                      
+                      
+                      
+                       <button className="group cursor-pointer px-8 sm:px-10 py-3.5 bg-white/80 backdrop-blur-sm border border-gray-300 text-gray-800 rounded-xl font-semibold hover:bg-white hover:scale-105 transition-all duration-300 shadow-md hover:shadow-lg flex items-center gap-2">
               গল্প দেখুন
               <svg
                 className="w-4 h-4 group-hover:scale-110 transition-transform"
@@ -68,6 +76,7 @@ const HeroSection = () => {
                 <path d="M8 5v14l11-7z" />
               </svg>
             </button>
+                      </Link>
           </div>
 
           {/* Stats Cards */}
