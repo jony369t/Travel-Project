@@ -21,7 +21,7 @@ const HeroSection = () => {
           </div>
 
           {/* Headline */}
-          <h1 className="text-4xl sm:text-5xl md:text-5xl lg:text-5xl xl:text-5xl font-bold text-gray-900 leading-tight">
+          <h1 className="text-4xl sm:text-5xl md:text-5xl lg:text-5xl xl:text-5xl font-bold text-gray-700 leading-tight">
             আবিষ্কার করুন{" "}
                       <span className="text-[#00A4BB]">
                       সৌন্দর্য
