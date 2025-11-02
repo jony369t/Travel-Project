@@ -38,7 +38,7 @@ const SpecialOffers = () => {
     <section className="py-16 bg-gray-50">
       <div className="w-full px-6 text-center">
         {/* Heading */}
-        <h2 className="text-4xl md:text-5xl font-extrabold text-gray-800 mb-4">
+        <h2 className="text-4xl md:text-5xl font-extrabold text-[#00A4BB]  mb-4">
            <span className="text-[#00A4BB]">শীতকালীন প্যাকেজে</span> পাচ্ছেন{" "}
           <span className="text-[#007C94]">৩০% ছাড়!</span>
         </h2>

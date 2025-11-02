@@ -33,9 +33,9 @@ const PopularDestinations = () => {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="text-4xl md:text-5xl font-extrabold mb-12 text-gray-700"
+          className="text-4xl md:text-5xl font-extrabold mb-12 text-[#00A4BB]"
         >
-         জনপ্রিয় <span className="text-[#00A4BB]">গন্তব্য</span> 
+         জনপ্রিয় গন্তব্য
         </motion.h2>
 
         {/* Destination Grid */}
