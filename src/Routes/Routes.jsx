@@ -11,6 +11,9 @@ import Contact from "../Pages/Contact";
 import Error from "../Error/Error";
 import TourBooking from "../Pages/Home/TourBooking";
 import TourStory from "../Pages/Home/TourStory";
+import Login from "../Pages/Login";
+import Register from "../Pages/Register";
+
 
 export const router = createBrowserRouter([
   {
@@ -50,6 +53,14 @@ export const router = createBrowserRouter([
         path: "/tourStory",
         element: <TourStory></TourStory>,
       },
+        {
+        path: "/login",
+        element: <Login></Login>,
+      },
+        {
+        path: "/register",
+        element: <Register></Register>,
+      }
     ],
   },
 ]);
